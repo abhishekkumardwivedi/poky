@@ -35,13 +35,13 @@ Another feature for the SDKs is that only one set of cross-compiler toolchain bi
 
 The SDK development environment consists of the following:
 
-The self-contained SDK, which is an architecture-specific cross-toolchain and matching sysroots (target and native) all built by the OpenEmbedded build system (e.g. the SDK). The toolchain and sysroots are based on a Metadata configuration and extensions, which allows you to cross-develop on the host machine for the target hardware.
+* The self-contained SDK, which is an architecture-specific cross-toolchain and matching sysroots (target and native) all built by the OpenEmbedded build system (e.g. the SDK). The toolchain and sysroots are based on a Metadata configuration and extensions, which allows you to cross-develop on the host machine for the target hardware.
 
-The Quick EMUlator (QEMU), which lets you simulate target hardware. QEMU is not literally part of the SDK. You must build and include this emulator separately. However, QEMU plays an important role in the development process that revolves around use of the SDK.
+* The Quick EMUlator (QEMU), which lets you simulate target hardware. QEMU is not literally part of the SDK. You must build and include this emulator separately. However, QEMU plays an important role in the development process that revolves around use of the SDK.
 
-The Eclipse IDE Yocto Plug-in. This plug-in is available for you if you are an Eclipse user. In the same manner as QEMU, the plug-in is not literally part of the SDK but is rather available for use as part of the development process.
+* The Eclipse IDE Yocto Plug-in. This plug-in is available for you if you are an Eclipse user. In the same manner as QEMU, the plug-in is not literally part of the SDK but is rather available for use as part of the development process.
 
-Various user-space tools that greatly enhance your application development experience. These tools are also separate from the actual SDK but can be independently obtained and used in the development process.
+* Various user-space tools that greatly enhance your application development experience. These tools are also separate from the actual SDK but can be independently obtained and used in the development process.
 
 ## References
 * http://www.yoctoproject.org/docs/current/sdk-manual/sdk-manual.html
