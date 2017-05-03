@@ -16,6 +16,11 @@ Let's begin with faster way, download qemu image in sdk folder
 
 If you have done git pull for the readme, you will get sample example as well, let's check that here now.
 
+
+## To build eSDK from existing source
+`
+$bitbake <image> -c populate_sdk_ext
+`
 ## References
 * http://www.yoctoproject.org/docs/current/sdk-manual/sdk-manual.html
 * https://mender.io/resources/yocto-sdk-quickstart
